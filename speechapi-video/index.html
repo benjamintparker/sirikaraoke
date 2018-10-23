@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <head lang="en-IE">
-	<meta charset="utf-8">	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/style.css" rel="stylesheet" media="all">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/style.css" rel="stylesheet" media="all">
+
+
 </head>
+<!-- <body> -->
+
+<!-- </body> -->
+
 <body>
-    <main role="main">
-        <div class="flex-container">
-		      <div class="logo">
-                <img src="img/Apple_Music_logo.svg">
-                </div>
+
+
+		<canvas id="canvas"></canvas>
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.3/dat.gui.min.js'></script>
+		<script  src="js/index.js"></script>
+
+
+
+		<main role="main">
+    		<div class="flex-container">
+			      <div class="logo">
+	              <img src="img/Apple_Music_logo.svg">
+	          </div>
             <div class="Middle">
-                <div class="buffer"> </div>
-            <div>
-            <div id="hiddentexts" class="lyrics"> <h2>Cause I know when that <span id="lyricspan" class="missinglyrics"> hotline bling </span> that can..</h2></div>
-		      <div class="msg" data-state="hidden">This browser doesn't support the WebKit Web Speech <abbr title="Application Programming Interface">API</abbr>. You need the latest version of Chrome. Sorry!</div>
-		      <audio id="v">
-			     <source src="video/Drake%20-%20Hotline%20Bling.mp3" type="audio/mp3">
-		      </audio>
-		      <div class="rec-status">Recogniser status:<span id="recStatus">not recognising</span></div>
-                <button id="startRecBtn"><img id=siri src="img/microphone.svg"></button>
+            		<div class="buffer"> </div>
+		            <div>
+				            <div id="hiddentexts" class="lyrics"> <h2>Cause I know when that <span id="lyricspan" class="missinglyrics"> hotline bling </span> that can..</h2></div>
+							      <div class="msg" data-state="hidden">This browser doesn't support the WebKit Web Speech <abbr title="Application Programming Interface">API</abbr>. You need the latest version of Chrome. Sorry!</div>
+							      <audio id="v">
+								     		<source src="video/Drake%20-%20Hotline%20Bling.mp3" type="audio/mp3">
+							      </audio>
+							      <div class="rec-status">Recogniser status:<span id="recStatus">not recognising</span></div>
+		                <button id="startRecBtn"><img id=siri src="img/microphone.svg"></button>
                 </div>
-                <div class="buffer"> </div>
+            		<div class="buffer"> </div>
             </div>
             <div class="footer">
-            <div>
-            <p>Hotline Bling - Drake</p>
-            </div>
-            <div>
-            <a class=next href="cometogether/index.html">Next Song</a>
-            </div>
-            </div>
+							<div>
+		            	<p>Hotline Bling - Drake</p>
+		            </div>
+		            <div>
+		            	<a class=next href="cometogether/index.html">Next Song</a>
+		            </div>
+        		</div>
         </div>
         <audio id=buttonsound src="video/Click.mp3"></audio>
-	</main>
+			</main> -->
+
 	<script src="js/video-speech.js" defer></script>
 	<script>
 		var _gaq=[['_setAccount','UA-2046650-1'],['_trackPageview']];(function(a,b){var c=a.createElement(b),d=a.getElementsByTagName(b)[0];c.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";d.parentNode.insertBefore(c,d)})(document,"script");
