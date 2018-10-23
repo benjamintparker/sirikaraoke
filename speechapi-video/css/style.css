@@ -19,13 +19,21 @@ h1 {
 }
 
 
-html, body {
+html {
+	background-color:black;
+    text-align:center;
+    height: auto;
+    width: auto
+}
+
+body {
+	/* This is the css for the video-speech portion */
 	background-color:black;
     text-align:center;
     height: auto;
     width: auto
 
-/*  other */
+/*  this is the css for the siri-voice portion. This was originally in a body {} */
 		margin: 0;
 		background: radial-gradient(farthest-side, #000 0%, #010101 100%) no-repeat fixed 0 0;
 }
