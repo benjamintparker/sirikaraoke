@@ -2,10 +2,7 @@
 
 
 
-/* body {
-  background: radial-gradient(farthest-side, #000 0%, #010101 100%) no-repeat fixed 0 0;
-  margin: 0;
-} */
+/* css from siri-voice */
 h1 {
   color: #fff;
   font: 10vh/1.2 sans-serif;
@@ -18,7 +15,7 @@ h1 {
   height: 400px;
 }
 
-
+/* css from video-speech */
 html {
 	background-color:black;
     text-align:center;
@@ -33,7 +30,7 @@ body {
     height: auto;
     width: auto
 
-/*  this is the css for the siri-voice portion. This was originally in a body {} */
+/*  this is the css for the siri-voice portion. */
 		margin: 0;
 		background: radial-gradient(farthest-side, #000 0%, #010101 100%) no-repeat fixed 0 0;
 }
